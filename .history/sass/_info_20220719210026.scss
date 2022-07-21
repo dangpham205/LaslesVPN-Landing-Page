@@ -1,0 +1,33 @@
+.info {
+    margin-bottom: 95px;
+    &__container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        border-radius: 10px;
+        min-height: 200px;
+        // border: 2px solid black;
+        box-shadow: 0 40px 20px 40px rgba(13, 16, 37, 0.05);
+        // filter: blur(114px)
+    }
+    &__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__item-text {
+        margin-left: 36px;
+    }
+    &__item-title {
+        margin-bottom: 5px;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: calc(30/25);
+    }
+    &__item-desc {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: calc(30/20);
+
+    }
+
+}

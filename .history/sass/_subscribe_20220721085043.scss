@@ -1,0 +1,16 @@
+.subscribe {
+    
+    &__container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-width: 240px;       
+        padding: 70px 60px;
+        border-radius: 10px;
+        background-color: white;
+        border: 2px solid black;
+    }
+    &__title {
+        max-width: 370px;
+    }
+}

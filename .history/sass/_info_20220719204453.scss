@@ -1,0 +1,14 @@
+.info {
+    margin-bottom: 95px;
+    &__container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        border-radius: 10px;
+        min-height: 200px;
+    }
+    &__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

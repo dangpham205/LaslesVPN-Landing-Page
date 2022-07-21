@@ -1,0 +1,19 @@
+.subscribe {
+    background-color: $gray-color;
+    position: relative;
+    margin-top: -50%;
+    &__container{
+        
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 240px;       
+        padding: 70px 60px;
+        border-radius: 10px;
+        background-color: white;
+    }
+    &__title {
+        max-width: 370px;
+    }
+}

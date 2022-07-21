@@ -1,0 +1,30 @@
+.footer {
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        gap: 0 230px;
+    }
+
+    &__desc {
+        margin: 20px 0 30px 0;
+        max-width: 340px;
+    }
+    &__contacts {
+        display: flex;
+    }
+
+    &__menu {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0 126px;
+    }
+    &__category {
+        display: flex;
+        flex-direction: column;
+        gap: 10px 0;
+        white-space: no-wrap;
+    }
+    &__category-title {
+        margin-bottom: 10px;
+    }
+}

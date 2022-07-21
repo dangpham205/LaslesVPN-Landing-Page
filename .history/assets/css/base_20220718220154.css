@@ -1,0 +1,17 @@
+:root {
+    --text-color: #4F5665;
+    --dark-text-color: #0B132A;
+    --primary-color: #F53855;
+    --primary-color2: #F53838;
+    --border-color: #EEEFF2;
+}
+html{
+    font-size: 62.5%; /*1 hacke, tuong duong voi 12px, muon 16px thi 1.6 rem, 12px thi 1rem*/
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+}

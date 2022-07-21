@@ -1,0 +1,18 @@
+.menu{
+    padding-top: 50px;
+    padding-bottom: 90px;
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__list {
+        display: flex;
+    }
+    &__item + .menu__item{
+        margin-left: 40px;
+    }
+    $__buttons {
+        gap: 0 30px;
+    }
+}

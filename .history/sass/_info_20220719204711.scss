@@ -1,0 +1,22 @@
+.info {
+    margin-bottom: 95px;
+    &__container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        border-radius: 10px;
+        min-height: 200px;
+        border: 2px solid black;
+    }
+    &__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__item-text {
+        margin-left: 36px;
+    }
+    &__item-title {
+        
+    }
+
+}

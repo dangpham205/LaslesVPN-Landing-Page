@@ -1,0 +1,20 @@
+.feature{
+    padding-bottom: 130px;
+    border-bottom: 1px solid black;
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    &__image {
+        margin: 0 168px 0 36px;
+    }
+    &__list {
+        // display: flex;
+        // flex-direction: column;
+        // justify-content: end;
+    }
+    &__item {
+        display: flex;
+    }
+}

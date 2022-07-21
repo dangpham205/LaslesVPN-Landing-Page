@@ -1,0 +1,35 @@
+.feature{
+    padding-bottom: 130px;
+    border-bottom: 1px solid black;
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        gap: 0 170px;
+    }
+    
+    &__title {
+        max-width: 380px;
+    }
+    &__desc {
+        max-width: 430px;
+        margin-bottom: 20px;
+    }
+    &__list {
+        display: flex;
+        flex-direction: column;
+        // justify-content: end;
+        gap: 21px;
+    }
+    &__item {
+        display: flex;
+    }
+    &__item-icon {
+        margin-right: 10px;
+    }
+    &__item-text {
+        // text-align: center;
+        line-height: 30px;
+    }
+    
+}
